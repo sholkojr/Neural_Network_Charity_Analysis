@@ -23,7 +23,7 @@ Trial and error was systematically used between 60 and 180 nodes on four layers 
 
 The Construction of the best neural network within the above parameters consisted of 4 layers, the first two layers consisted of 120 nodes each with the third and fourth layers consisting of 60 nodes each.  The first three layers used ReLU activation function, and the fourth layer utilised a linear activation functions.
 
-With this construction, the best accuracy achieved was .7258, not within the 0.75 target.
+With this construction, the best accuracy achieved was .7258, not within the 0.75 target but an improvement on the initial accuracy of .7244.
 
 ## Summary
 
