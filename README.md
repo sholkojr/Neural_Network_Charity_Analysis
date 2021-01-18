@@ -6,7 +6,9 @@ Purpose of this analysis is to build a model to predict suitability of potential
 ## Results
 
 ### Data Preprocessing
-The variable "IS_SUCCESSFUL" was used as the target variable for this analysis.  The model features included:
+The variable "IS_SUCCESSFUL" was used as the target variable for this analysis.  
+
+The model features included:
 - APPLICATION_TY
 - AFFILIATION
 - CLASSIFICATION
@@ -16,6 +18,7 @@ The variable "IS_SUCCESSFUL" was used as the target variable for this analysis. 
 - INCOME_AMT
 - SPECIAL_CONSIDERATIONS
 - ASK_AMT
+
 Features that were dropped from the model included "EIN" and "NAME", as they did not add value to the model.
 
 ### Compiling, Training and Evaluation of the Model
